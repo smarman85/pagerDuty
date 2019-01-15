@@ -31,7 +31,7 @@ type User struct {
 
 func main() {
   // err := godotenv.Load()
-  err := godotenv.Load("/Users/smarman/go/src/github.com/pagerDuty/.env")
+  err := godotenv.Load("/Users/smarman/go/src/github.com/smarman85/pagerDuty/.env")
   if err != nil {
     log.Fatal("Error loading .env file")
   }
